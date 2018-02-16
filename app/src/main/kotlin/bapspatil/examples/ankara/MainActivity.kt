@@ -12,12 +12,16 @@ import org.jetbrains.anko.toast
  */
 class MainActivity : AppCompatActivity() {
 
+    var textView: TextView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         MainView().setContentView(this)
 
-        val text = find<TextView>(R.id.helloTextView).text
-        toast(text)
+        // Following code is to demo how to find a TextView defined in the Anko DSL Layout file
+        textView = find(R.id.helloTextView)
+        val textViewMessage = textView!!.text
+        toast(textViewMessage)
     }
 
 }
