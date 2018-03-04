@@ -7,6 +7,6 @@ An example app to demo the usage of Anko & Karamba in my Kotlin talk at BlrKotli
 ## Developer
 <center><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/bapspatil.png" alt="bapspatil" align="center"
                         width="30%">
-<h2>Bapusaheb Patil</h2></center>
+<h3>Bapusaheb Patil</h3></center>
 <center>
 <a href="https://bapspatil.com">Website</a>&emsp;<a href="https://linkedin.com/in/bapspatil">LinkedIn</a>&emsp;<a href="https://bit.do/bapsapps">Play Store</a>&emsp;<a href="https://bit.do/bapswat">Watchfaces</a>&emsp;<a href="https://twitter.com/baps_patil">Twitter</a>
