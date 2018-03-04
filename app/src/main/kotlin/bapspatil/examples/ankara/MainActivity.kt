@@ -33,15 +33,15 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
             *   Do long-running background task here.
             *   Here, @{bg} executes code on a background thread and the await() method can be called on its return value since it is of Deferred type.
             */
-            // val data = bg { getDataThatTakesALongTimeToFetch() }
+            // val someData = bg { getDataThatTakesALongTimeToFetch() }
 
             uiThread {
 
                 /*
                 *   Do UI-related task here.
-                *   Here, when await() is called, the async thread is suspended until the value of @{data} is fetched.
+                *   Here, when await() is called, the async thread is suspended until the value of @{someData} is fetched.
                 */
-                // ref().updateUI(data.await())
+                // ref().updateUI(someData.await())
             }
         }
 
