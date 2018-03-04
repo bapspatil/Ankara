@@ -1,6 +1,5 @@
 package bapspatil.examples.ankara
 
-import android.util.Log.v
 import android.view.Gravity
 import android.view.View
 import org.jetbrains.anko.*
@@ -32,7 +31,8 @@ class MainView : AnkoComponent<MainActivity> {
 
             // Button with Anko Layouts
             button("Toast") {
-                onClick { // On Click listener for Button
+                onClick {
+                    // On Click listener for Button
                     // Toast with Anko Commons
                     toast("You just clicked me!")
                 }
@@ -60,9 +60,6 @@ class MainView : AnkoComponent<MainActivity> {
                 onClick {
                     selector("What do you love?", thingsYouLove, { dialogInterface, i ->
                         toast("I knew you loved ${thingsYouLove[i]}!")
-
-                        // Logging with Anko Commons
-                        v(this@MainView.javaClass.simpleName, "CLICKED: ${thingsYouLove[i]}")
                     })
                 }
             }.lparams(width = wrapContent, height = wrapContent) {

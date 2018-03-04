@@ -31,7 +31,7 @@ kotlin {
 }
 
 ext {
-    sup = '27.0.2'
+    sup = '27.1.0'
 }
 
 androidExtensions {
@@ -42,7 +42,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version" // Kotlin
     implementation "org.jetbrains.anko:anko:0.10.4" // Anko
+    implementation "org.jetbrains.anko:anko-design:0.10.4" // Anko SnackBars
     implementation "com.github.matteocrippa:karamba:1.1.0" // Karamba
     implementation "com.android.support:appcompat-v7:$sup"
+    implementation "com.android.support:design:$sup"
 }
 
