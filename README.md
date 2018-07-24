@@ -1,12 +1,37 @@
 # <img src="./design/app_logo.png" width="3.5%" height="3.5%"> Ankara
 
 An example app to demo the usage of Anko in my Kotlin talk at BlrKotlin's 3rd Meetup.
-</br></br>
+
+## Screenshots
+
 <img src="./screenshots/screen0.png" width="35%">
-</br>
-## Developer
-<center><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/bapspatil.png" alt="bapspatil" align="center"
-                        width="30%">
-<h3>Bapusaheb Patil</h3></center>
-<center>
-<a href="https://bapspatil.com">Website</a>&emsp;<a href="https://linkedin.com/in/bapspatil">LinkedIn</a>&emsp;<a href="https://bit.do/bapsapps">Play Store</a>&emsp;<a href="https://bit.do/bapswat">Watchfaces</a>&emsp;<a href="https://twitter.com/baps_patil">Twitter</a>
+
+## Libraries Used
+
+* [Android Support Library](https://developer.android.com/topic/libraries/support-library/)
+* [Anko](https://github.com/Kotlin/anko)
+* [Karamba](https://github.com/matteocrippa/karamba)
+
+## Developed By
+
+Bapusaheb Patil
+
+<img src="https://github.com/bapspatil.png" width="20%">
+
+https://bapspatil.com
+
+## License
+
+    Copyright 2018 Bapusaheb Patil
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
